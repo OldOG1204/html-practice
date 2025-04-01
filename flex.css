@@ -1,0 +1,42 @@
+ul li{
+    display: inline-block;
+    padding: 14px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+.dropdown{
+    position: absolute;
+}
+.test{
+    text-align: center;
+    background-color: blue;
+}
+.dropmenu a {
+    display: block;
+    color: black;
+    padding: 10px;    
+}
+.dropmenu{
+    padding: 10px;
+    margin-top: 13px;
+    opacity: 0.3;
+    display: none;
+}
+.dropdown:hover .dropmenu{
+    display: block;
+    background-color: aqua;
+
+}
+.dropmenu a:hover{
+    background-color: red;
+    color: white;
+}
+.dropmenu:hover {
+    transition-delay: 300ms;
+    opacity: 1;
+}
+
+
+

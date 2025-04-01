@@ -1,0 +1,20 @@
+table{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+th{
+    padding: 14px;
+    text-align: left;
+    border: 5px solid white;
+}
+td{
+    padding: 14px;
+    border: 1px solid blue;
+}
+tr:nth-child(1){
+    background-color: cadetblue;
+}
+tr:nth-child(2){
+    background-color: bisque;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+   
+    /* color: white; */
+    /* padding: 10px; */
+    /* float: right; */
+    margin-left: 180px;
+}
+ol{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+li:hover{
+    color: brown;
+}
+h1{
+    position: absolute;
+    top: 200px;
+}
+h3{
+    position: absolute;
+    top: 180px;
+}
+div{
+    height: 110vh;
+}
+h1{
+    position: sticky;/
+    
+}

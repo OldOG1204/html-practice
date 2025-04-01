@@ -1,0 +1,25 @@
+ul li{
+    float: right;
+    /* display: inline-block; */
+    padding: 14px;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+}
+.dropmenu a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.dropmenu{
+    background-color: blue;
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropmenu{
+    display: block;
+}
+.dropmenu a:hover{
+    background-color: aqua;
+}
